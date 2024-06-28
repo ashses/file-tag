@@ -1,0 +1,21 @@
+@import './base.css';
+
+#addTagContainer {
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+#buttonGroup {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#rootInfo,
+#inputSection,
+#buttonGroup {
+  margin: 0 auto;
+}

@@ -1,0 +1,8 @@
+fileTag
+__pycache__
+.idea
+*.db
+*.spec
+build
+dist
+*.log

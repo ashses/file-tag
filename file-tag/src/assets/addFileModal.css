@@ -1,0 +1,62 @@
+@import './base.css';
+
+#modal {
+  width: 800px;
+  height: 450px;
+  background-color: #ffff;
+  padding: 10px;
+}
+
+#inputGroup {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+#dragSection {
+  height: 300px;
+  width: 200px;
+}
+
+#fileListShow {
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#inputSection {
+  width: 200px;
+  height: 300px;
+}
+
+#tagSelector {
+  height: 300px;
+}
+
+#tagSelectorTree {
+  height: 200px;
+  width: 200px;
+  overflow-x: auto;
+}
+
+#tagSelector,
+#tagSelectorCard {
+  width: 250px;
+}
+
+#operationGroup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#close,
+#submit,
+#edit {
+  width: 25%;
+  height: max-content;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
